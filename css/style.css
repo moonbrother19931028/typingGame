@@ -1,0 +1,48 @@
+body{
+  font-family:'Courier New',monospace;
+  padding-top:40px;
+}
+
+.typesound{
+  position:relative;
+  width:800px;
+  margin:0 auto;
+}
+
+p{
+  font-size:48px;
+  letter-spacing:0.4em;
+  text-align:center;
+}
+
+.click{
+  cursor:pointer;
+}
+
+#result{
+  background:#f8f8f8;
+  width:500px;
+  height:300px;
+  position: absolute;
+  left:140px;
+  font-size:30px;
+  top:-500px;
+  transition:transform .6s ease-in-out;
+}
+
+#result.show{
+  transform:translateY(500px);
+}
+
+#result th{
+  font-weight:normal;
+  text-align:right;
+}
+
+#result td{
+  text-align:center;
+}
+
+#result p{
+  font-size:28px;
+}
