@@ -17,7 +17,7 @@
     word=words.splice(Math.floor(Math.random()*words.length),1)[0];
     typingCount+=word.length;
     target.textContent=word;
-    let loc=0;
+    loc=0;
   }
 
   const target=document.getElementById('target');
