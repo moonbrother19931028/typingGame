@@ -3,6 +3,10 @@
   const words=[
     'javascript',
     'html',
+    'Ruby',
+    'PHP',
+    'css',
+    'JQuery',
   ]
   
   let word;
